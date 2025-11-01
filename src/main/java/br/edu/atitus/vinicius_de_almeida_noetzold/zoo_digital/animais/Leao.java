@@ -6,7 +6,7 @@ import br.edu.atitus.vinicius_de_almeida_noetzold.zoo_digital.comportamento.Pred
 public class Leao extends Mamifero implements Corredor, Predador {
 
     public Leao(String nome, int idade) {
-        super(nome, idade, true); // temPelo = true
+        super(nome, idade, true);
     }
 
     @Override
