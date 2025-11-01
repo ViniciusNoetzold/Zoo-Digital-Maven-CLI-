@@ -1,6 +1,6 @@
 package br.edu.atitus.vinicius_de_almeida_noetzold.zoo_digital.animais;
 public abstract class Peixe extends Animal {
-    private String tipoAgua; //Água doce ou salgada
+    private String tipoAgua;
 
     public Peixe(String nome, int idade, String tipoAgua) {
         super(nome, "Peixe", idade);
@@ -14,8 +14,4 @@ public abstract class Peixe extends Animal {
     public void setTipoAgua(String tipoAgua) {
         this.tipoAgua = tipoAgua;
     }
-
-
-    
-    
 }
