@@ -5,7 +5,7 @@ import br.edu.atitus.vinicius_de_almeida_noetzold.zoo_digital.comportamento.Voad
 public class Morcego extends Mamifero implements Voador {
 
     public Morcego(String nome, int idade) {
-        super(nome, idade, true); // temPelo = true
+        super(nome, idade, true);
     }
 
     @Override
